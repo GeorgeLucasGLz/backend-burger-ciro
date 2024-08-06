@@ -1,0 +1,25 @@
+{
+  "name": "projetocirolanches",
+  "version": "1.0.0",
+  "description": "Burger Artesanal - delivery - backend",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "mocha tests/**/*.test.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "choco": "^0.2.1",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^5.12.3",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^10.7.0",
+    "supertest": "^6.1.3"
+  }
+}
